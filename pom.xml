@@ -22,6 +22,14 @@
     </properties>
 
     <dependencies>
+        <!-- Spotify Web API Wrapper -->
+        <dependency>
+            <groupId>se.michaelthelin.spotify</groupId>
+            <artifactId>spotify-web-api-java</artifactId>
+            <version>8.4.1</version>
+        </dependency>
+
+
         <!-- Spring Boot Starter Web for REST APIs -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -39,6 +47,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <!-- Lombok (optional, for reducing boilerplate code) -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
