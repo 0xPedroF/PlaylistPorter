@@ -9,6 +9,7 @@ import java.net.URI;
 
 @Service
 public class SpotifyAuthService {
+
     private static final String CLIENT_ID = "your_client_id";
     private static final String CLIENT_SECRET = "your_client_secret";
     private static final URI REDIRECT_URI = SpotifyHttpManager.makeUri("http://localhost:8080/callback");
